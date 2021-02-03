@@ -1,0 +1,12 @@
+.home {
+    padding: 0 1em;
+    margin: 0 auto;
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 720px) {
+    .home {
+        max-width: 1365px;
+        padding: 0 2em;
+    }
+}

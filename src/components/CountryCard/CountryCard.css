@@ -1,0 +1,52 @@
+.card {
+    text-align: left;
+    width: 100%;
+    max-width: 265px;
+    height: 335px;
+    background-color: white;
+    color: hsl(200, 15%, 8%);
+    letter-spacing: .017em;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0 4px 8px rgba(0,0,0,.2);  /* Firefox 3.5 - 3.6 */
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.card.dark {
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0,0%,90%);
+}
+
+.card.dark .countryFlag {
+    border-bottom: 1px solid hsl(207, 26%, 17%);
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.countryFlag {
+    border-bottom: 1px solid #eee;
+    height: 170px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.countryInfo {
+    padding: 0 1.5rem;
+}
+
+.countryTitle {
+    font-size: 1.15rem;
+    margin: 1.15rem 0;
+}
+
+.countryInfo p:not(:last-child) {
+    margin-bottom: .3rem;
+}
+
+.countryInfo p {
+    font-size: .9rem;
+}

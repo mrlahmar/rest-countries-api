@@ -1,0 +1,17 @@
+.country-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 265px);
+    justify-content: center;
+    align-content: start;
+    gap: 40px;
+    min-height: 100vh;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 720px) {
+    .country-list {
+        gap: 75px;
+    }
+}

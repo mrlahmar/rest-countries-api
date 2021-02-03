@@ -1,0 +1,15 @@
+.control-bar {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 720px) {
+    .control-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+}

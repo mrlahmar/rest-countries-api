@@ -1,0 +1,55 @@
+.site-nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10px;
+    border-bottom: 2px solid rgb(236, 231, 231);
+}
+
+.site-nav div {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+.icon {
+    margin-right: 6px;
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 720px) {
+    h1 {
+        font-size: 1.25em;
+    }
+
+    .site-nav {
+        padding: 25px 30px;
+    }
+}
+
+/* Large Screens */
+@media only screen and (min-width: 1024px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+h1.dark {
+    color: hsl(0, 0%, 100%);
+}
+
+.site-nav.dark {
+    background-color: hsl(207, 26%, 17%);
+    border-bottom: 2px solid hsl(208, 24%, 29%);
+}
+
+p.dark {
+    color: hsl(0, 0%, 100%);
+}
+
+nav div:hover {
+    cursor: pointer;
+}
