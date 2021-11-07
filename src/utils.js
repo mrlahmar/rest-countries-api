@@ -10,7 +10,7 @@ export const getBorderCountryName = (countries, border) => {
 
 // fetch countries
 export const fetchCountries = async () => {
-  const res = await fetch('https://restcountries.eu/rest/v2/all');
+  const res = await fetch('https://restcountries.com/v2/all');
   const data = await res.json();
   
   return data;
